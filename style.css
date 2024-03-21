@@ -1,0 +1,15 @@
+.container {
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.prototype {
+    color: #fff;
+    text-shadow: 0 0 3px rgb(0 0 0 / 20%);
+    display: flex;
+    padding: 5px 8px;
+    background: rgb(62, 84, 102);
+    background: linear-gradient(0deg, rgba(62, 84, 102, 1) 0%, rgba(97, 185, 255, 1) 100%);
+}
