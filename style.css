@@ -1,15 +1,21 @@
 .container {
-    max-width: 1200px;
+    max-width: 1000px;
+    margin: 20px auto;
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
 }
 
 .prototype {
+    font-family: monospace;
+    font-size: 15px;
     color: #fff;
-    text-shadow: 0 0 3px rgb(0 0 0 / 20%);
-    display: flex;
-    padding: 5px 8px;
+    text-decoration: none;
+    text-shadow: 0 0 5px rgb(0 0 0 / 50%);
     background: rgb(62, 84, 102);
-    background: linear-gradient(0deg, rgba(62, 84, 102, 1) 0%, rgba(97, 185, 255, 1) 100%);
+    background: linear-gradient(0deg, rgb(3 100 180) 0%, rgba(97, 185, 255, 1) 100%);
+    display: flex;
+    padding: 8px 12px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px -1px rgb(0 0 0 / 30%);
 }
